@@ -1,0 +1,1 @@
+Plase do clean and rebuild the solution first, as I deleted the packages, bin and obj folders to trim the size. You may find interesting the asynchronous method in DataLink.Migrations.SeedingValues as simple as it is.
