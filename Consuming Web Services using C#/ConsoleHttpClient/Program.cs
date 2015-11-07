@@ -66,7 +66,6 @@
 
             if (waitedTasks.Any())
             {
-
                 Helper.ConsoleMio.WriteLine(
                     "\nTask running in the background\n" +
                     "Submit another request while waiting for the task to complete",

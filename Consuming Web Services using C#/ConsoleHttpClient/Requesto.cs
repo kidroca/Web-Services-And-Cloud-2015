@@ -49,6 +49,7 @@
                 Content next = JsonConvert.DeserializeObject<Content>(result.ToString());
                 content.Add(next);
             }
+
             return content;
         }
     }
