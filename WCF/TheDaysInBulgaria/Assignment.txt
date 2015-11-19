@@ -1,0 +1,6 @@
+1. Create a simple WCF service. It should have a method that accepts a DateTime parameter and returns the day of 
+week (in Bulgarian) as string.
+
+	- Test it with the integrated WCF client.
+
+2. Create a console-based client for the WCF service above. Use the "Add Service Reference" in Visual Studio.

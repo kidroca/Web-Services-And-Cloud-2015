@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0F91221A-76C2-40C7-8CEA-9A17FEA00274}"
+	ProjectSection(SolutionItems) = preProject
+		Assignment.txt = Assignment.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheDaysInBulgaria.WcfService", "TheDaysInBulgaria.WcfService\TheDaysInBulgaria.WcfService.csproj", "{71C19445-B3B2-45E5-88E2-0C2D0905FD95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheDaysInBulgaria.ConsoleClient", "TheDaysInBulgaria.ConsoleClient\TheDaysInBulgaria.ConsoleClient.csproj", "{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71C19445-B3B2-45E5-88E2-0C2D0905FD95} = {71C19445-B3B2-45E5-88E2-0C2D0905FD95}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71C19445-B3B2-45E5-88E2-0C2D0905FD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C19445-B3B2-45E5-88E2-0C2D0905FD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C19445-B3B2-45E5-88E2-0C2D0905FD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C19445-B3B2-45E5-88E2-0C2D0905FD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

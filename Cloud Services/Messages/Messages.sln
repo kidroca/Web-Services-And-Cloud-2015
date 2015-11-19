@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages.RabbitClient", "Messages.RabbitClient\Messages.RabbitClient.csproj", "{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages.ListenerApp", "Messages.ListenerApp\Messages.ListenerApp.csproj", "{6BAAB166-F429-41B3-AEA7-C34A8F4F7F7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAAB166-F429-41B3-AEA7-C34A8F4F7F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAAB166-F429-41B3-AEA7-C34A8F4F7F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAAB166-F429-41B3-AEA7-C34A8F4F7F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAAB166-F429-41B3-AEA7-C34A8F4F7F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
